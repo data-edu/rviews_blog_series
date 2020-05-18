@@ -1,4 +1,4 @@
-# Writing Data Science in Education Using R in the Open 
+# Community and Collaboration: Writing Our Book in the Open
 
 This repository is for an upcoming series of blog posts we're working on. The posts are about how the R community and tools like {bookdown} inspired us to write our book, *Data Science in Education Using R (DSIEUR)*, in the open. DSIEUR will be available in print through [Routledge](https://www.routledge.com) in 2020, but you can read the book now for free at [https://datascienceineducation.com](https://datascienceineducation.com).  
 
