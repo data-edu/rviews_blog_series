@@ -1,5 +1,5 @@
 ---
-title: "Writing Data Science in Education Using R in the Open"
+title: "Community and Collaboration: Writing a Book in the Open (Introduction)"
 author: "Ryan Estrellado"
 date: "5/17/2020"
 output: html_document
@@ -26,7 +26,7 @@ This post is about coordinating people and tools to write an open book, a challe
 How do you get five points of view to sound like a single voice? You’ll need a flexible sense of clarity, which I think is what Jesse meant when she said in a recent team call, “I have strong opinions, loosely held.” And it helps to have some basic rules as guardrails to flank your team as you march towards your writing deadlines. In this last post, we’ll share the workflows and processes we leaned on to discover what we wanted this book to be. We’ll also share our go-to tactics to keep the work going for the long haul, like managing meeting agendas, creating flexible norms for participation, and playing to individual strengths. 
 
 We’ll be back with that first post in about two weeks. Until then, do share with us about the people and tools that inspire you to work on collaborative projects. You can reach us on Twitter: Emily [@ebovee09](https://twitter.com/ebovee09), Jesse [@kierisi](https://twitter.com/kierisi), Joshua [@jrosenberg6432](https://twitter.com/jrosenberg6432), Isabella [@ivelasq3](https://twitter.com/ivelasq3), and me [@RyanEs](https://twitter.com/RyanEs). 
-
+  
 See you in two weeks! 
 
 Ryan, with help from Emily, Jesse, Joshua, and Isabella
