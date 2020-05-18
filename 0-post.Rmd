@@ -11,7 +11,7 @@ With the writing done, we’re reflecting on lessons we’ve learned from writin
 
 ### Part 1: Teaching R Using Everyday Examples in Education
 
-Learning R on the job presents many challenges, but one in particular sticks out. Once you start coding, "it's not obvious how to apply that code in everyday tasks at the office. We wrote DSIEUR to answer the question, “How would it feel to have a book that taught programming concepts, provided reproducible code, and used scenarios that data scientists in education recognize?” In this first post, we’ll explore how we put these elements together and what we learned in the process. 
+Learning R on the job presents many challenges, but one in particular sticks out. Once you start coding, it's not obvious how to apply that code in everyday tasks at the office. We wrote DSIEUR to answer the question, “How would it feel to have a book that taught programming concepts, provided reproducible code, and used scenarios that data scientists in education recognize?” In this first post, we’ll explore how we put these elements together and what we learned in the process. 
 
 ### Part 2: How the R Community Inspired Us to Write About Data Science in Education
 
