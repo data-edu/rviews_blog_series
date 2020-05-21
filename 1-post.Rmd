@@ -1,0 +1,65 @@
+---
+title: "Post 1"
+author: "Ryan Estrellado"
+date: "5/21/2020"
+output: html_document
+---
+
+There are two R learning moments that stick with me. The first was when I was plotting a bar graph for a special education student report. I couldn’t reorder the factors in the x-axis so the bars descended from left to right, tallest to shortest. Then I found this StackOverflow post, where someone used `reorder()` to plot positions on a soccer team, ordered by the number of players in each position. The second was when I struggled to use a data cleaning script on many student datasets. Then I found this video of Hadley Wickham using `purrr::map()` to fit a model about life expectancy to the data of many countries. 
+
+I learn new R concepts first by discovering them, but it doesn’t click until I see somebody use it. For example, I learned about random forest models when I read about them in An Introduction to Statistical Learning. Then I imagined myself using them when I watched Julia Silge fit a random forest model to predict attendance at NFL games. I need the reading to give me language for what I see data scientists do. Then I need to see what data scientists do for me to imagine myself doing what I’ve read.
+
+Still, for most folks using R in their jobs, there’s another step. They have to imagine how to apply what they’ve seen in books and videos to the problems they set out to solve everyday at work. But what if we helped them imagine solving everyday work problems with R, just as ISL teaches about models using words and code and Julia Silge’s videos activates the imagination through videos?
+
+We learned from writing Data Science in Education Using R that something special happens when you combine words, code, and professional context. This third element, professional context, are scenarios, language, and data that readers in that profession recognize. We wanted readers to feel motivated and engaged by seeing words and data that reminds them of their everyday work tasks. This connection to their professional lives is a hook for readers as they engage R syntax which is, if you’ve never used it, literally a foreign language.
+
+My routine for learning something new in R sounds deceptively organized when I write about it. But in reality it’s a chaotic mix of reading, watching videos, asking questions, writing code, fixing code (a lot of fixing code), and imagining ways to use new concepts. My favorite R lessons are scattered across the internet, like [this Stack Overflow posts](https://stackoverflow.com/questions/5208679/order-bars-in-ggplot2-bar-graph) about reordering factors in a plot or this [video of Hadley Wickham using {purrr} to apply many models](https://www.youtube.com/watch?v=rz3_FDVt9eg&t=2132s).
+
+So let’s describe this process is three steps: discovering a concept, seeing how the concept is used, and connecting that concept to work in education: 
+
+**Step 1: Discover the concept**
+
+For example, imagine writing about the concept of transforming a dataset to a wider or longer format. When I read something like “Use `pivot_longer()` to transform a dataset from wide format to long format”, I can imagine a dataset going from wide to long. Imagining what happens with the variables and their contents is much harder. I’ve been using R for over five years and I’d still struggle to visualize the contents of many columns rearranging themselves into one column so the dataset gets narrower and longer. 
+
+**Step 2: See how the concept is used**
+
+The concept gets much clearer when you add an example–even one with little context–to the explanation. Here’s one from the `pivot_longer()` vignette, which you can view with `vignette("pivot")`:  
+
+```{r packages, message=FALSE}
+library(tidyverse)
+```
+
+```{r pivot vignette}
+# Simplest case where column names are character data
+relig_income
+relig_income %>%
+ pivot_longer(-religion, names_to = "income", values_to = "count")
+```
+
+Sharing an idea by pairing an abstract programming concept with a reproducible example is a common practice for experienced R programmers. Community guidelines for Stack Overflow posts and the {reprex} package are two artifacts of a popular R community norm: help folks understand an idea by using words and code. 
+
+**Step 3: See how the concept is used at work**
+
+Combining the explanation and the example makes the idea of changing a dataset from wide to long more concrete by offering a visual representation. What happens if we connect the concept and visual representation to the reader’s experience as a data scientist in the education field? 
+
+In chapter seven of Data Science in Education Using R, we used `pivot_longer()` to transform a dataset of survey responses from wide to narrow. Before using `pivot_longer()`, the dataset had a column for each survey question. After using `pivot_longer()`, the name of each survey question moved to a single column called "question". Another new column was added, "response", which contains the response to the corresponding survey question in the "question" column. [To run this code, you'll need the DSIEUR companion R package, {dataedu}](https://github.com/data-edu/dataedu): 
+
+```{r dataedu}
+# devtools::install_github("data-edu/dataedu")
+library(dataedu)
+```
+
+```{r DSIEUR example}
+# Pivot the dataset from wide to long format
+pre_survey
+pre_survey %>%
+  pivot_longer(cols = Q1MaincellgroupRow1:Q1MaincellgroupRow10,
+               names_to = "question",
+               values_to = "response")
+```
+
+When you put it all together, the learning can be described this way: 
+
+ - I see that there’s a function called `pivot_longer()`, which turns a wide dataset into a long dataset 
+ - I see that `pivot_longer()` does this by putting multiple column names into its own column, then creating a new column that pairs each column name with a value 
+ - I see that I can use `pivot_longer()` to take chanve a survey dataset that has question names for columns into one that has a "question" column and a "response" column
