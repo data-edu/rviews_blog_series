@@ -8,23 +8,10 @@ to illustrate is that there is a natural learning process which operates
 within everyone, if it is allowed to. This process is waiting to be
 discovered by all those who do not know of its existence. There is no
 need to take my word for it. It can be discovered for yourself, if it
-hasn’t been already. If it has been experienced, trust it.”
-
-There are two R learning moments that stick with me. The first was when
-I was plotting a bar graph for a special education student report. I
-couldn’t reorder the factors in the x-axis so the bars descended from
-left to right, tallest to shortest. Then I found [this StackOverflow
-post](https://stackoverflow.com/questions/5208679/order-bars-in-ggplot2-bar-graph),
-where someone used `reorder()` to plot positions on a soccer team,
-ordered by the number of players in each position. The second was when I
-struggled to use a data cleaning script on many student datasets. Then I
-found [this video](https://youtu.be/rz3_FDVt9eg) of Hadley Wickham using
-`purrr::map()` to fit a model about life expectancy to many datasets.
-
-I learn new R concepts first by discovering them, but it doesn’t click
-until I see somebody use it. For example, I learned about random forest
-models when I read about them in [An Introduction to Statistical
-Learning
+hasn’t been already. If it has been experienced, trust it.” I learn new
+R concepts first by discovering them, but it doesn’t click until I see
+somebody use it. For example, I learned about random forest models when
+I read about them in [An Introduction to Statistical Learning
 (ISL)](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370).
 Then I imagined myself using them when I watched [Julia Silge fit a
 random forest model](https://youtu.be/LPptRkGoYMg) to predict attendance
@@ -48,20 +35,18 @@ This connection to their professional lives is a hook for readers as
 they engage R syntax which is, if you’ve never used it, literally a
 foreign language.
 
-Let’s describe this process in three steps: discovering the concept,
-seeing how the concept is used, and seeing how the concept is used *in
-education*:
+Let’s use `pivot_longer()` as an example. We’ll describe this process in
+three steps: discovering the concept, seeing how the concept is used,
+and seeing how the concept is used *in education*:
 
 **Step 1: See the concept**
 
-For example, imagine writing about the concept of transforming a dataset
-to a wider or longer format. When I read something like “Use
-`pivot_longer()` to transform a dataset from wide format to long
-format”, I can imagine a dataset going from wide to long. Imagining
-what happens with the variables and their contents is much harder. I’ve
-been using R for over five years and I’d still struggle to visualize the
-contents of many columns rearranging themselves into one column so the
-dataset gets narrower and longer.
+When I read something like “Use `pivot_longer()` to transform a dataset
+from wide format to long format”, I can imagine a dataset going from
+wide to long. Imagining what happens with the variables and their
+contents is much harder. I’ve been using R for over five years and I’d
+still struggle to visualize the contents of many columns rearranging
+themselves into one column.
 
 **Step 2: See how the concept is used**
 
