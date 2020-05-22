@@ -193,7 +193,7 @@ pre_survey %>%
     ## 10 _80624_1        FrScA-S116-01   Q1MaincellgroupRow10        5
     ## # … with 11,010 more rows
 
-When you put it all together,the learning thought process is something
+When you put it all together, the learning thought process is something
 like this:
 
   - There’s a function called `pivot_longer()`, which turns a wide
