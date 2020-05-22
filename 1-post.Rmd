@@ -65,7 +65,7 @@ pre_survey %>%
                values_to = "response")
 ```
 
-When you put it all together,the learning thought process is something like this: 
+When you put it all together, the learning thought process is something like this: 
 
  - There’s a function called `pivot_longer()`, which turns a wide dataset into a long dataset 
  - `pivot_longer()` does this by putting multiple column names into its own column, then creating a new column that pairs each column name with a value 
