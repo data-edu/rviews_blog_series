@@ -5,7 +5,11 @@ date: "5/21/2020"
 output: github_document
 ---
 
-Timothy Gallwey wrote in *The Inner Game of Tennis*, "What I have tried to illustrate is that there is a natural learning process which operates within everyone, if it is allowed to. This process is waiting to be discovered by all those who do not know of its existence ... It can be discovered for yourself, if it hasn't been already. If it has been experienced, trust it." I learn new R concepts first by discovering them, but it doesn’t click until I see somebody use it. For example, I learned about random forest models when I read about them in [An Introduction to Statistical Learning (ISL)](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370). Then I imagined myself using them when I watched [Julia Silge fit a random forest model](https://youtu.be/LPptRkGoYMg) to predict attendance at NFL games. I need the reading to give me language for what I see data scientists do. Then I need to see what data scientists do for me to imagine myself doing what I’ve read.
+Timothy Gallwey wrote in *The Inner Game of Tennis*: 
+
+>What I have tried to illustrate is that there is a natural learning process which operates within everyone, if it is allowed to. This process is waiting to be discovered by all those who do not know of its existence ... It can be discovered for yourself, if it hasn't been already. If it has been experienced, trust it.
+
+Discovering a new R concept like a function or package is exciting. You never know if you're about to learn something that fundamentally changes the way you code or solve data science problems. But I get even more excited when I see somebody *use* new R concepts. For example, I learned about random forest models when I read about them in [An Introduction to Statistical Learning (ISL)](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370). Then I imagined myself using them when I watched [Julia Silge fit a random forest model](https://youtu.be/LPptRkGoYMg) to predict attendance at NFL games. I need the reading to give me language for what I see data scientists do. Then I need to see what data scientists do for me to imagine myself doing what I’ve read.
 
 Still, for most people using R in their jobs, there’s another step. They have to imagine how to apply what they’ve read and seen to the problems they're solving at work. But what if we used education datasets to help them imagine using R on the job, just as the authors of ISL use words and code to teach about models and Julia Silge uses video to inspire coding?
 
@@ -15,7 +19,7 @@ Let’s use `pivot_longer()` as an example. We'll describe this process in three
 
 **Step 1: See the concept**
 
-When I read something like “Use `pivot_longer()` to transform a dataset from wide format to long format”, I can imagine a dataset going from wide to long. Imagining what happens with the variables and their contents is much harder. I’ve been using R for over five years and I’d still struggle to visualize the contents of many columns rearranging themselves into one.  
+When I read something like “Use `pivot_longer()` to transform a dataset from wide to long”, I can imagine the shape of a dataset changing. But it's harder to imagine what happens with the variables and their contents as the dataset's shape changes. I’ve been using R for over five years and I still struggle to visualize the contents of many columns rearranging themselves into one.  
 
 **Step 2: See how the concept is used**
 
