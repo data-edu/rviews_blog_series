@@ -3,15 +3,20 @@ Teaching R Using Everyday Examples in Education
 Ryan Estrellado
 5/21/2020
 
-Timothy Gallwey wrote in *The Inner Game of Tennis*, “What I have tried
-to illustrate is that there is a natural learning process which operates
-within everyone, if it is allowed to. This process is waiting to be
-discovered by all those who do not know of its existence … It can be
-discovered for yourself, if it hasn’t been already. If it has been
-experienced, trust it.” I learn new R concepts first by discovering
-them, but it doesn’t click until I see somebody use it. For example, I
-learned about random forest models when I read about them in [An
-Introduction to Statistical Learning
+Timothy Gallwey wrote in *The Inner Game of Tennis*:
+
+> What I have tried to illustrate is that there is a natural learning
+> process which operates within everyone, if it is allowed to. This
+> process is waiting to be discovered by all those who do not know of
+> its existence … It can be discovered for yourself, if it hasn’t been
+> already. If it has been experienced, trust it.
+
+Discovering a new R concept like a function or package is exciting. You
+never know if you’re about to learn something that fundamentally changes
+the way you code or solve data science problems. But I get even more
+excited when I see somebody *use* new R concepts. For example, I learned
+about random forest models when I read about them in [An Introduction to
+Statistical Learning
 (ISL)](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370).
 Then I imagined myself using them when I watched [Julia Silge fit a
 random forest model](https://youtu.be/LPptRkGoYMg) to predict attendance
@@ -43,11 +48,11 @@ and seeing how the concept is used *in education*.
 **Step 1: See the concept**
 
 When I read something like “Use `pivot_longer()` to transform a dataset
-from wide format to long format”, I can imagine a dataset going from
-wide to long. Imagining what happens with the variables and their
-contents is much harder. I’ve been using R for over five years and I’d
-still struggle to visualize the contents of many columns rearranging
-themselves into one.
+from wide to long”, I can imagine the shape of a dataset changing. But
+it’s harder to imagine what happens with the variables and their
+contents as the dataset’s shape changes. I’ve been using R for over five
+years and I still struggle to visualize the contents of many columns
+rearranging themselves into one.
 
 **Step 2: See how the concept is used**
 
