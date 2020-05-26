@@ -25,11 +25,16 @@ When I read something like “Use `pivot_longer()` to transform a dataset from w
 
 The concept gets much clearer when you add an example–even one with little context–to the explanation. Here’s one from the `pivot_longer()` vignette, which you can view with `vignette("pivot")`:  
 
+```{r set options, echo=FALSE}
+library(knitr)
+opts_chunk$set(comment = "#>")
+```
+
 ```{r packages, message=FALSE}
 library(tidyverse)
 ```
 
-```{r pivot vignette, comment="#>"}
+```{r pivot vignette}
 # Simplest case where column names are character data
 relig_income
 relig_income %>%
@@ -54,14 +59,14 @@ library(dataedu)
  
 View the survey data in its original, wide format: 
 
-```{r DSIEUR wide, comment="#>"}
+```{r DSIEUR wide}
 # Wide format
 pre_survey
 ```
 
 ... and now transform the survey dataset to a long format, where a column called "question" contains the question names and a column called "response" contains the corresponding responses: 
 
-```{r}
+```{r DSIEUR long}
 # Pivot the dataset from wide to long format
 pre_survey %>%
   pivot_longer(cols = Q1MaincellgroupRow1:Q1MaincellgroupRow10,

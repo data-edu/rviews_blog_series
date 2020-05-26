@@ -183,20 +183,20 @@ pre_survey %>%
                values_to = "response")
 ```
 
-    ## # A tibble: 11,020 x 4
-    ##    opdata_username opdata_CourseID question             response
-    ##    <chr>           <chr>           <chr>                   <dbl>
-    ##  1 _80624_1        FrScA-S116-01   Q1MaincellgroupRow1         4
-    ##  2 _80624_1        FrScA-S116-01   Q1MaincellgroupRow2         4
-    ##  3 _80624_1        FrScA-S116-01   Q1MaincellgroupRow3         4
-    ##  4 _80624_1        FrScA-S116-01   Q1MaincellgroupRow4         1
-    ##  5 _80624_1        FrScA-S116-01   Q1MaincellgroupRow5         5
-    ##  6 _80624_1        FrScA-S116-01   Q1MaincellgroupRow6         4
-    ##  7 _80624_1        FrScA-S116-01   Q1MaincellgroupRow7         1
-    ##  8 _80624_1        FrScA-S116-01   Q1MaincellgroupRow8         5
-    ##  9 _80624_1        FrScA-S116-01   Q1MaincellgroupRow9         5
-    ## 10 _80624_1        FrScA-S116-01   Q1MaincellgroupRow10        5
-    ## # … with 11,010 more rows
+    #> # A tibble: 11,020 x 4
+    #>    opdata_username opdata_CourseID question             response
+    #>    <chr>           <chr>           <chr>                   <dbl>
+    #>  1 _80624_1        FrScA-S116-01   Q1MaincellgroupRow1         4
+    #>  2 _80624_1        FrScA-S116-01   Q1MaincellgroupRow2         4
+    #>  3 _80624_1        FrScA-S116-01   Q1MaincellgroupRow3         4
+    #>  4 _80624_1        FrScA-S116-01   Q1MaincellgroupRow4         1
+    #>  5 _80624_1        FrScA-S116-01   Q1MaincellgroupRow5         5
+    #>  6 _80624_1        FrScA-S116-01   Q1MaincellgroupRow6         4
+    #>  7 _80624_1        FrScA-S116-01   Q1MaincellgroupRow7         1
+    #>  8 _80624_1        FrScA-S116-01   Q1MaincellgroupRow8         5
+    #>  9 _80624_1        FrScA-S116-01   Q1MaincellgroupRow9         5
+    #> 10 _80624_1        FrScA-S116-01   Q1MaincellgroupRow10        5
+    #> # … with 11,010 more rows
 
 When you put it all together, the learning thought process is something
 like this:
