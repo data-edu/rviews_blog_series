@@ -56,8 +56,8 @@ rearranging themselves into one.
 
 **Step 2: See how the concept is used**
 
-The concept gets much clearer when you add an example–even one with
-little context–to the explanation. Here’s one from the `pivot_longer()`
+The concept gets much clearer when you add an example—even one with
+little context—to the explanation. Here’s one from the `pivot_longer()`
 vignette, which you can view with `vignette("pivot")`:
 
 ``` r
@@ -145,7 +145,7 @@ To run this code, you’ll need the *DSIEUR* companion R package,
 library(dataedu)
 ```
 
-View the survey data in its original, wide format:
+Here’s the survey data in its original, wide format:
 
 ``` r
 # Wide format
@@ -170,6 +170,32 @@ pre_survey
     #> #   Q1MaincellgroupRow6 <dbl>, Q1MaincellgroupRow7 <dbl>,
     #> #   Q1MaincellgroupRow8 <dbl>, Q1MaincellgroupRow9 <dbl>,
     #> #   Q1MaincellgroupRow10 <dbl>
+
+The third through eighth columns are named after each survey question.
+These are the column names we’ll be moving to a single column called
+“question” when the dataset transforms from wide to long. Here are
+columns three through eight, in the original wide format:
+
+``` r
+# Columns three through eight or named after each survey item
+pre_survey[, 3:8]
+```
+
+    #> # A tibble: 1,102 x 6
+    #>    Q1Maincellgroup… Q1Maincellgroup… Q1Maincellgroup… Q1Maincellgroup…
+    #>               <dbl>            <dbl>            <dbl>            <dbl>
+    #>  1                4                4                4                1
+    #>  2                4                4                3                2
+    #>  3               NA               NA               NA               NA
+    #>  4                4                3                3                2
+    #>  5               NA               NA               NA               NA
+    #>  6                4                2                2                2
+    #>  7               NA               NA               NA               NA
+    #>  8                5                3                3                1
+    #>  9               NA               NA               NA               NA
+    #> 10                4                4                3                2
+    #> # … with 1,092 more rows, and 2 more variables: Q1MaincellgroupRow5 <dbl>,
+    #> #   Q1MaincellgroupRow6 <dbl>
 
 … and now transform the survey dataset to a long format, where a column
 called “question” contains the question names and a column called
