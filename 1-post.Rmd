@@ -23,7 +23,7 @@ When I read something like “Use `pivot_longer()` to transform a dataset from w
 
 **Step 2: See how the concept is used**
 
-The concept gets much clearer when you add an example–even one with little context–to the explanation. Here’s one from the `pivot_longer()` vignette, which you can view with `vignette("pivot")`:  
+The concept gets much clearer when you add an example---even one with little context---to the explanation. Here’s one from the `pivot_longer()` vignette, which you can view with `vignette("pivot")`:  
 
 ```{r set options, echo=FALSE}
 library(knitr)
