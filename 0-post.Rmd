@@ -2,7 +2,7 @@
 title: "Community and Collaboration: Writing a Book in the Open (Introduction)"
 author: "Ryan Estrellado"
 date: "5/17/2020"
-output: html_document
+output: github_document
 ---
 
 In 2017, Emily Bovee, Jesse Mostipak, Joshua Rosenberg, Isabella Velásquez, and I started work on our book, Data Science in Education Using R (DSIEUR). We had two goals for DSIEUR. First, we aimed to write a practical reference for data scientists in education that helps them learn and apply R skills in their jobs. Second, we wanted to share the process with the R community by writing the book in the open on GitHub. After working together for almost three years, my co-authors and I submitted the manuscript for DSIEUR to Routledge and are now gearing up to begin editing the print version. The print version will be out from Routledge in late 2020, but you can read the online version of DSIEUR now at [https://datascienceineducation.com/](https://datascienceineducation.com/). 
