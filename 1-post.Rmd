@@ -1,5 +1,5 @@
 ---
-title: "Teaching R Using Everyday Examples in Education"
+title: "Learning R With Education Datasets"
 author: "Ryan Estrellado"
 date: "5/21/2020"
 output: github_document
@@ -7,7 +7,7 @@ output: github_document
 
 Timothy Gallwey wrote in *The Inner Game of Tennis*: 
 
->What I have tried to illustrate is that there is a natural learning process which operates within everyone, if it is allowed to. This process is waiting to be discovered by all those who do not know of its existence ... It can be discovered for yourself, if it hasn't been already. If it has been experienced, trust it.
+> ...There is a natural learning process which operates within everyone, if it is allowed to. This process is waiting to be discovered by all those who do not know of its existence ... It can be discovered for yourself, if it hasn't been already. If it has been experienced, trust it.
 
 Discovering a new R concept like a function or package is exciting. You never know if you're about to learn something that fundamentally changes the way you code or solve data science problems. But I get even more excited when I see somebody *use* new R concepts. For example, I learned about random forest models when I read about them in [An Introduction to Statistical Learning (ISL)](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370). Then I imagined myself using them when I watched [Julia Silge fit a random forest model](https://youtu.be/LPptRkGoYMg) to predict attendance at NFL games. I need the reading to give me language for what I see data scientists do. Then I need to see what data scientists do for me to imagine myself doing what I’ve read.
 
