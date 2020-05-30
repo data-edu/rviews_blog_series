@@ -1,15 +1,15 @@
-Teaching R Using Everyday Examples in Education
+Learning R With Education Datasets
 ================
 Ryan Estrellado
 5/21/2020
 
 Timothy Gallwey wrote in *The Inner Game of Tennis*:
 
-> What I have tried to illustrate is that there is a natural learning
-> process which operates within everyone, if it is allowed to. This
-> process is waiting to be discovered by all those who do not know of
-> its existence … It can be discovered for yourself, if it hasn’t been
-> already. If it has been experienced, trust it.
+> …There is a natural learning process which operates within everyone,
+> if it is allowed to. This process is waiting to be discovered by all
+> those who do not know of its existence … It can be discovered for
+> yourself, if it hasn’t been already. If it has been experienced, trust
+> it.
 
 Discovering a new R concept like a function or package is exciting. You
 never know if you’re about to learn something that fundamentally changes
