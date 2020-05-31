@@ -171,10 +171,12 @@ pre_survey
     #> #   Q1MaincellgroupRow8 <dbl>, Q1MaincellgroupRow9 <dbl>,
     #> #   Q1MaincellgroupRow10 <dbl>
 
-The third through eighth columns are named after each survey question.
-These are the column names we’ll be moving to a single column called
-“question” when the dataset transforms from wide to long. Here are
-columns three through eight, in the original wide format:
+The third through eighth columns are named after each survey
+question—“Q1MaincellgroupRow1”, “Q1MaincellgroupRow2”,
+“Q1MaincellgroupRow3”, etc. These are the column names we’ll be moving
+to a single column called “question” when the dataset transforms from
+wide to long. Here are columns three through eight, in the original wide
+format:
 
 ``` r
 # Columns three through eight or named after each survey item

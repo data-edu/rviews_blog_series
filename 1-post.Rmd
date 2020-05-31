@@ -64,7 +64,7 @@ Here's the survey data in its original, wide format:
 pre_survey
 ```
 
-The third through eighth columns are named after each survey question. These are the column names we'll be moving to a single column called "question" when the dataset transforms from wide to long. Here are columns three through eight, in the original wide format: 
+The third through eighth columns are named after each survey question---"Q1MaincellgroupRow1", "Q1MaincellgroupRow2", "Q1MaincellgroupRow3", etc. These are the column names we'll be moving to a single column called "question" when the dataset transforms from wide to long. Here are columns three through eight, in the original wide format: 
 
 ```{r column names}
 # Columns three through eight or named after each survey item
