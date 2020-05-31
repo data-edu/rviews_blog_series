@@ -123,18 +123,18 @@ by using words *and* code.
 
 **Step 3: See how the concept is used in education**
 
-Combining the explanation and a reproducible example makes
+Combining the explanation with a reproducible example makes
 `pivot_longer()` more concrete by showing how it works. What happens
 when we connect the explanation and reproducible example to the everyday
 work of a data scientist in education?
 
 In [chapter seven](https://datascienceineducation.com/c07.html) of
-*DSIEUR*, we used `pivot_longer()` to transform a dataset of survey
-responses from wide to long. Before using `pivot_longer()`, the dataset
-had a column for each survey question. After using `pivot_longer()`, the
-name of each survey question moved to a single column called “question”.
-Another new column was added, “response”, which contains the
-corresponding response to each survey question.
+*DSIEUR*, we use `pivot_longer()` to transform a dataset of coursework
+survey responses from wide to long. Before using `pivot_longer()`, the
+dataset had a column for each survey question. When we use
+`pivot_longer()`, the name of each survey question moves to a new column
+called “question”. Another new column is added, “response”, which
+contains the corresponding response to each survey question.
 
 To run this code, you’ll need the *DSIEUR* companion R package,
 [{dataedu}](https://github.com/data-edu/dataedu):
@@ -175,33 +175,11 @@ The third through eighth columns are named after each survey
 question—“Q1MaincellgroupRow1”, “Q1MaincellgroupRow2”,
 “Q1MaincellgroupRow3”, etc. These are the column names we’ll be moving
 to a single column called “question” when the dataset transforms from
-wide to long. Here are columns three through eight, in the original wide
-format:
+wide to long.
 
-``` r
-# Columns three through eight or named after each survey item
-pre_survey[, 3:8]
-```
-
-    #> # A tibble: 1,102 x 6
-    #>    Q1Maincellgroup… Q1Maincellgroup… Q1Maincellgroup… Q1Maincellgroup…
-    #>               <dbl>            <dbl>            <dbl>            <dbl>
-    #>  1                4                4                4                1
-    #>  2                4                4                3                2
-    #>  3               NA               NA               NA               NA
-    #>  4                4                3                3                2
-    #>  5               NA               NA               NA               NA
-    #>  6                4                2                2                2
-    #>  7               NA               NA               NA               NA
-    #>  8                5                3                3                1
-    #>  9               NA               NA               NA               NA
-    #> 10                4                4                3                2
-    #> # … with 1,092 more rows, and 2 more variables: Q1MaincellgroupRow5 <dbl>,
-    #> #   Q1MaincellgroupRow6 <dbl>
-
-… and now transform the survey dataset to a long format, where a column
-called “question” contains the question names and a column called
-“response” contains the corresponding responses:
+Here’s the new dataset, where a column called “question” contains the
+question names and a column called “response” contains the corresponding
+responses:
 
 ``` r
 # Pivot the dataset from wide to long format
