@@ -1,0 +1,186 @@
+Open-Source Authorship of Data Science in Education Using R
+================
+Joshua Rosenberg
+6/28/2020
+
+*Joshua M. Rosenberg, Ph.D., is Assistant Professor of STEM Education
+and the University of Tennessee, Knoxville.*
+
+As our earlier posts have introduced and described
+([Post 1](https://rviews.rstudio.com/2020/05/26/community-and-collaboration-writing-our-book-in-the-open/),
+[Post 2](https://rviews.rstudio.com/2020/06/11/learning-r-with-education-datasets/)),
+we wrote [Data Science in Education Using
+R](http://datascienceineducation.com/) as an open book. This post
+addresses how we wrote the book through a process that we describe as
+open-source authorship.
+
+We think of open-source authorship as a broader—and perhaps better—term
+for describing what authors of some (especially data science-related)
+open books undertake. Open-source authorship draws upon open-source
+software (OSS) values and components of open science that establish the
+importance of scholarly work beyond original, discovery research, while
+simultaneously promoting the spirit of open educational resources (OER).
+While OSS and open science emphasize the sharing of technical work
+(including technology and code) and OER emphasizes the sharing of
+resources, technical books have not been as much a focus of the
+conversation. This means that some books that are open do not fully
+receive the attention (for being openly available) that they merit from
+those interested in OER. This also might mean that those involved with
+OSS development and open science may fail to recognize the creation of a
+book as a substantial contribution. In this way, we argue for
+open-source authorship as an important, new type of work, one that we
+increasingly see by the authors of other books, especially in the R
+community\[1\] \[2\] \[3\] \[4\]. After describing how we wrote our book
+in an open way, we elaborate on what we consider these ideas that inform
+open-source authorship.
+
+## How We Wrote Data Science in Education Using R as an Open Book
+
+### Available to Access from the Start to the Finish
+
+Early in our process, we determined that we wanted to share the book in
+an open way. Since we were using GitHub as a repository for the book, it
+was easy for the contents of the book to be available for anyone to
+view–even before and as the book was being written. Despite the
+benefits of using GitHub, GitHub can be difficult to navigate for those
+who are unfamiliar with it, and so sharing the book in a more
+widely-accessible way was also important. To do this, we used bookdown
+(to render the book from individual R Markdown files as a website) and
+Netlify (to host the website) to share the book as a website.
+Additionally, we chose an easy-to-remember URL
+(<http://datascienceineducation.com/>) to help others (and us\!)
+remember the URL.
+
+### Available to Contribute To
+
+Being inspired by authors like Wickham and Grolemund, being available
+for others to contribute was important. Because we used GitHub, we were
+able to receive feedback at a very early-stage on issues such as how we
+referred to data (as data or datum). Other issues (by non-authors)
+raised questions about whether certain content was in scope–such as
+content on gradebooks, which we included a chapter on. We found that
+apart from the five of us as authors, 15 individuals made contributions,
+and another 144 individuals starred the repository. Moreover, we
+received feedback through Twitter and an email account we created for
+the book for those unfamiliar with GitHub (or Twitter) to be able to
+provide feedback directly to us. In this way, making the book available
+to contribute to made the book better, and points to the importance of
+sharing work at only one stage of the writing process. Open in its
+Entirety Lastly, we shared products that could be seen as tangential to
+the book, but which were important given its focus on data science and
+R. Namely, we created an R package, {dataedu}, to accompany the book.
+This package includes code to install the packages necessary to
+reproduce the book as well as all of the data sets used in it. By doing
+so, we invited others to contribute to the book in ways not related to
+its prose. This also led to surprising contributions by others,
+including the creation of an iPython Notebook with python code to carry
+out comparable steps as those carried in a walkthrough chapter of our
+book.
+
+## Drawing Inspiration from Other, Related Ideas and Efforts
+
+### Open-Source Software (OSS)
+
+Originally a niche effort, open-source software (OSS) and OSS
+development are widespread; we see the idea of OSS, its values, and
+findings from research about how OSS development proceeds to be relevant
+to and informative as guiding ideas for the process of writing a
+book.There are some insights that can be gained from efforts to
+understand how OSS development proceeds. For example, in foundational ,
+work Mockus and colleagues found that OSS is often characterized by a
+core group of 10-15 individuals contributing around 80% of the code, but
+that a group an order of magnitude larger than that core will repair
+specific problems, and a group another order of magnitude larger will
+report issues10; proportions (generally) similar to those we found for
+those who contributed to our book.
+
+### Open Science
+
+Open science is both a perspective about how science should operate and
+a set of practices that reflect a perspective about how science should
+proceed,. Related to open science is open scholarly practices. Many
+scholars trace the origin of the idea of open scholarly practices to a
+book by Boyer, who shared a broad description of the work academics do,
+which some have used to consider how newer, social media-based
+approaches to scholarship might relate to and inform open scholarly
+practices as well as open access and publishing. This suggests that
+scholarly work is not only original, discovery research; it also
+includes the applications of advances in one’s own discipline (or
+“translational research”) and sharing the results of research with
+multiple stakeholders. Open science and open scholarly practices point
+to the scientific or scholarly contributions of open books; while
+different from original, scientific research, books such as our
+own—which focused on providing a language for data science in
+education—may serve as helpful examples (of open science) or forms of a
+broader view of scholarship.
+
+### Open Educational Resources (OER)
+
+OER are “teaching, learning, and research resources that reside in the
+public domain or have been released under an intellectual property
+license that permits their free use and re-purposing by others”. These
+resources range from courses and books to tests and technologies. By
+being open, they are not only available to others to use, but also to
+reuse, redistribute (or share), revise (adapt or change the work), and
+remix (combining existing resources to create a new one). OER can serve
+as an inspiration for authors of open books, especially those who see
+their books as being used to teach and learn from. At the moment, OER
+and traditional publishing modes are largely separate: For most books
+that are published, the publisher retains the copyright, and authors are
+typically not allowed to share their book in the open, though this may
+be changing. Many authors of books about R have negotiated with their
+publisher to share their books in the open (often as a website) in
+addition to sharing them through print and e-book formats: this was the
+agreement we reached with our editor. In addition to these “hybrid”
+modes of publishing, a number of platforms for creating books that are
+OER are emerging; one example is EdTech Books. There are increasing
+conversations related to making materials, resources, and even education
+as an enterprise more open; OER may be an area in which authors of books
+about R and other technical books can both learn from the work of
+authors as well as advance the conversation.
+
+## Conclusion
+
+This post was an effort to step back from what we did to write our book
+to reflect on what we meant by writing an open book and to attempt to
+situate what we did (and what others have done) in broader conversations
+about OSS, open science, and OER. In the spirit of one of the sets of
+ideas we highlighted here—OER—we invite others to revise and remix the
+ideas we advanced to continue to innovate around the process of writing
+books in better ways.
+
+You can reach us on Twitter: Emily
+\[@ebovee09\](<https://twitter.com/ebovee09>), Jesse
+\[@kierisi\](<https://twitter.com/kierisi>), Joshua
+\[@jrosenberg6432\](<https://twitter.com/jrosenberg6432>), Isabella
+\[@ivelasq3\](<https://twitter.com/ivelasq3>), and me
+\[@RyanEs\](<https://twitter.com/RyanEs>).
+
+See you in two weeks\!
+
+Josh, with help from Ryan, Emily, Jesse, Joshua, and Isabella
+
+Ryan, with help from Emily, Jesse, Joshua, and Isabella
+
+  - *Ryan A. Estrellado is a public education leader and data scientist
+    helping administrators use practical data analysis to improve the
+    student experience.*
+
+  - *Emily A. Bovee, Ph.D., is an educational data scientist working in
+    dental education.*
+
+  - *Jesse Mostipak, M.Ed., is a community advocate, Kaggle educator and
+    data scientist.*
+
+  - *Isabella C. Velásquez, MS, is a data analyst committed to nonprofit
+    work with the aim of reducing racial and socioeconomic inequities.*
+
+<!-- end list -->
+
+1.  <https://bookdown.org/yihui/rmarkdown/>
+
+2.  <https://geocompr.robinlovelace.net/>
+
+3.  <http://adv-r.had.co.nz/>
+
+4.  <https://r4ds.had.co.nz/>
