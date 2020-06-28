@@ -6,8 +6,8 @@ Joshua Rosenberg
 *Joshua M. Rosenberg, Ph.D., is Assistant Professor of STEM Education at
 the University of Tennessee, Knoxville.*
 
-In earlier posts, we shared about how we wrote [*Data Science in
-Education Using R*](http://datascienceineducation.com/) as an open book
+In earlier posts, we shared how we wrote [*Data Science in Education
+Using R*](http://datascienceineducation.com/) as an open book
 ([Post 1](https://rviews.rstudio.com/2020/05/26/community-and-collaboration-writing-our-book-in-the-open/),
 [Post 2](https://rviews.rstudio.com/2020/06/11/learning-r-with-education-datasets/)).
 In this post, we describe what we consider to be the *open-source
@@ -23,7 +23,7 @@ characterization, open-source authorship draws upon:
   - the values surrounding the creation of open educational resources
     (OER)
 
-We believe that combining elements from OSS, open science and OER is
+We believe that combining elements from OSS, open science, and OER is
 notable because while OSS and open science emphasize the sharing of
 technical work (including technology and code) and OER emphasizes the
 sharing of resources, technical books have not been as much a focus of
@@ -97,28 +97,29 @@ development are (likely not to the surprise of R users\!) now widespread
 understand how OSS development proceeds. For example, in foundational,
 work Mockus et al. found that OSS is often characterized by a core group
 of 10-15 individuals contributing around 80% of the code, but that a
-group an order of magnitude larger than that core will repair specific
-problems, and a group another order of magnitude larger will report
-issues\[3\]; proportions (generally) similar to those we found for those
-who contributed to our book.
+group around one order of magnitude larger than that core will repair
+specific problems, and a group another order of magnitude larger will
+report issues\[3\]; proportions (generally) similar to those we found
+for those who contributed to our book.
 
 Second, open science is both a perspective about how science should
 operate and a set of practices that reflect a perspective about how
 science should proceed
 <sup>\[<https://www.nap.edu/catalog/25116/open-science-by-design-realizing-a-vision-for-21st-century>\]
 </sup>\[<https://journals.sagepub.com/doi/full/10.1177/2332858418787466>\].
-Related to open science is open scholarly practices. Others trace the
+Related to open science are open scholarly practices. Others trace the
 origin of the idea of open scholarly practices to [a book by
 Boyer](https://eric.ed.gov/?id=ED326149), who shared a broad description
-of the work academics do. This suggests that scholarly work is not only
-original, discovery research; it also includes the applications of
-advances in one’s own discipline (or “translational research”) and
-sharing the results of research with multiple stakeholders. Open science
-and open scholarly practices point to the scientific or scholarly
-contributions of open books; while different from original, scientific
-research, books such as our own—which focused on providing a language
-for data science in education—may serve as helpful examples (of open
-science) or forms of a broader view of scholarship.
+of intellectual (especially academic) work. This suggests that scholarly
+work is not only original, discovery research; it also includes the
+applications of advances in one’s own discipline (or “translational
+research”) and sharing the results of research with multiple
+stakeholders. Open science and open scholarly practices point to the
+scientific or scholarly contributions of open books; while different
+from original, scientific research, books such as our own—which focused
+on providing a language for data science in education—may serve as
+helpful examples (of open science) or forms of a broader view of
+scholarship.
 
 Last, OER are “teaching, learning, and research resources that reside in
 the public domain or have been released under an intellectual property
@@ -159,7 +160,7 @@ You can reach us on Twitter: Emily
 \[@ivelasq3\](<https://twitter.com/ivelasq3>), and me
 \[@RyanEs\](<https://twitter.com/RyanEs>).
 
-See you in two weeks for our next pst\! Josh, with help from Ryan,
+See you in two weeks for our next post\! Josh, with help from Ryan,
 Emily, Jesse, Joshua, and Isabella
 
   - *Ryan A. Estrellado is a public education leader and data scientist
@@ -169,8 +170,8 @@ Emily, Jesse, Joshua, and Isabella
   - *Emily A. Bovee, Ph.D., is an educational data scientist working in
     dental education.*
 
-  - *Jesse Mostipak, M.Ed., is a community advocate, Kaggle educator and
-    data scientist.*
+  - *Jesse Mostipak, M.Ed., is a community advocate, Kaggle educator,
+    and data scientist.*
 
   - *Isabella C. Velásquez, MS, is a data analyst committed to nonprofit
     work with the aim of reducing racial and socioeconomic inequities.*
