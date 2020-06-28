@@ -89,6 +89,11 @@ including the creation of [an iPython Notebook with python code to carry
 out comparable steps as those carried in a walkthrough chapter of our
 book](https://colab.research.google.com/drive/1f7CpetOWP9T2XaJCNrcwWj3CMKsQNmtw).
 
+Collectively, these practices—involving not only making the book open,
+but also planning for others to contribute and creating other, shared
+(open) products— comprise what we think of as the results of open-source
+authorship.
+
 ## Drawing Inspiration from Other, Related Ideas and Efforts
 
 Originally a niche effort, open-source software (OSS) and OSS
@@ -147,7 +152,7 @@ well as advance the conversation.
 ## *fin*
 
 This post was an effort to step back from what we did to write our book
-to reflect on what we meant by writing an open book and to attempt to
+to reflect on what we meant by open-source authorship and to attempt to
 situate what we did (and what others have done) in broader conversations
 about OSS, open science, and OER. In this open mode, we invite others to
 revise or remix these ideas to advance other, new forms of authorship of
