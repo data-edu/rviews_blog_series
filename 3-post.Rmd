@@ -1,5 +1,5 @@
 ---
-title: "Party in the R Community: How the Community Enabled Us to Write a Book"
+title: "Party with R: How the Community Enabled Us to Write a Book"
 author: "Isabella Velásquez"
 date: "7/13/2020"
 output: html_document
